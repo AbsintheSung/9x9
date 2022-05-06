@@ -1,0 +1,145 @@
+  .content {
+            background-color: #F0F0F0;
+            /* border: 1px solid red; */
+            width: 1280px;
+            height: 1372px;
+            margin: 0px auto;
+            /* position: absolute; */
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+
+        .begin {
+            /* border: 1px solid purple; */
+            background-color: #F0F0F0;
+            width: 350px;
+            height: 366px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0px 3px 10px #D8D8D8;
+
+            margin: 85px 15px 40px 85px;
+        }
+
+        p.txt {
+            /* border: 1px solid red; */
+            color: #2E8738;
+            font-weight: bold;
+            width: 280px;
+            height: 78px;
+            font-size: 56px;
+            margin: 0px auto;
+        }
+
+        .lineUp {
+            width: 280px;
+            border: 1px solid #2E8738;
+            margin-bottom: 113.5px;
+
+
+        }
+
+
+
+
+        .lineDown {
+            width: 280px;
+            border: 1px solid #2E8738;
+            margin-top: 96.5px;
+            font-size: 0px;
+        }
+
+
+
+        p.txt2 {
+            /* border: 1px solid green; */
+            color: #2E8738;
+            width: 278px;
+            height: 28px;
+            font-size: 24px;
+            margin: 0px auto;
+        }
+
+        /*乘法表內容*/
+        .test {
+            /* border: 1px solid rgb(46, 63, 216); */
+            width: 350px;
+            height: 366px;
+            background-color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: flex-start;
+            box-shadow: 0px 3px 10px #D8D8D8;
+            border-radius: 100px 0px 30px 0px;
+
+        }
+
+        p.paper {
+            /* border: 1px solid red; */
+            text-align: center;
+            margin: 20px;
+            color: #2E8738;
+            font-size: 24px;
+            font-family: "Helvetica Neue";
+            width: 118px;
+            line-height: 33px;
+            margin: 8px auto;
+
+        }
+
+        .test.box2 {
+            margin: 80px 15px 40px 15px;
+        }
+
+        .test.box3 {
+            margin: 80px 85px 40px 15px;
+        }
+
+        .test.box4,
+        .test.box7 {
+            margin: 0px 15px 40px 85px;
+        }
+
+        .test.box5,
+        .test.box8 {
+            margin: 0px 15px 40px 15px;
+        }
+
+        .test.box6,
+        .test.box9 {
+            margin: 0px 85px 40px 15px;
+        }
+
+        h2 {
+            /* border: 1px solid purple; */
+            text-align: center;
+            margin: 10px auto;
+            font-size: 128px;
+            color: #2E8738;
+            width: 71px;
+            height: 153px;
+            font-family: "Helvetica Neue";
+        }
+
+        /*footer*/
+        .divfooter {
+            width: 1280px;
+            height: 34px;
+            background-color: #2E8738;
+            margin: 0px auto;
+            text-align: center;
+
+
+        }
+
+        .footerSpan {
+            /* border: 1px solid red; */
+            display: inline-block;
+            margin: 8px 85px 8px 843px;
+        }
